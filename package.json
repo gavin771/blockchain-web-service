@@ -1,0 +1,24 @@
+{
+  "name": "project_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "level": "^4.0.0",
+    "levelweb": "^1.2.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "chakram": "^1.5.0",
+    "mocha": "^5.2.0"
+  }
+}
